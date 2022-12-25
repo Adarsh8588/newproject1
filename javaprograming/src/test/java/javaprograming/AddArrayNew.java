@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 public class AddArrayNew {
 	@Test
+	
 public void arrayadd() {
 	int [] a= {1,2,3,4,5};
 	int [] b= {2,4,5,6};
@@ -22,13 +23,13 @@ public void arrayadd() {
 
 	catch(Exception e)
 	{
-		if(a.length<b.length)
+		if(a.length>b.length)
 		{
-			System.out.println(b[i]);
+			System.out.println(a[i]);
 		}
 		else
 		{
-			System.out.println(a[i]);
+			System.out.println(b[i]);
 		}
 	}
 }

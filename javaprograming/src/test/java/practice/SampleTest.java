@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SampleTest {
-@Test(retryAnalyzer = com.torism.GenericUtilities.RetryImplimentationClass.class)
+//@Test(retryAnalyzer = com.torism.GenericUtilities.RetryImplimentationClass.class)
 	public void retry()
 	{
 		System.out.println("---test1-----");

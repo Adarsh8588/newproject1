@@ -21,7 +21,6 @@ public void duplicateArray()
 		{
 			tm.put(a[i], 1);
 		}
-		
 		else
 		{
 			int x = tm.get(a[i]);
@@ -31,8 +30,7 @@ public void duplicateArray()
 	}
 	for(Entry<Integer, Integer> map:tm.entrySet())
 	{
-	
-			System.out.println(+map.getKey() +"    count    "+map.getValue());
+		System.out.println(+map.getKey() +"    count    "+map.getValue());
 		}
 	
 	for(Entry<Integer, Integer> map:tm.entrySet())
@@ -52,11 +50,9 @@ public void duplicateArray()
 	}
 	}
 	for(Entry<Integer, Integer> map:tm.entrySet())
-	{
-
-		
+	{	
 	System.out.println(map.getKey() +" position ===="+c);	
-	c++;
+	 c++;
 	}
 	LinkedHashSet ts=new LinkedHashSet();
 	for(int i=0;i<a.length;i++)
@@ -66,8 +62,6 @@ public void duplicateArray()
 	System.out.println("array after remove duplicate");
 	System.out.println(ts);
 		}
-	
-	
 }
 
 

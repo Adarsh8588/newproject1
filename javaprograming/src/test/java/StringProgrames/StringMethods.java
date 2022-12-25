@@ -22,7 +22,7 @@ public void stringTest() {
 	System.out.println(s.startsWith("we"));
 	System.out.println(s.endsWith("me"));
 	String s4="";
-	System.out.println(s4.isBlank());
+//	System.out.println(s4.isBlank());
 	System.out.println(s4.isEmpty());
 	
 	String s5="  hi hello how are you   ";
